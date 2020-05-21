@@ -8,6 +8,7 @@ html {
 body{
     font-family: font-family: 'Merriweather', serif;
     font-family: 'Lobster', cursive 'Verdana';
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
@@ -112,8 +113,13 @@ figure .trasera hr{
 }  
   /* Footer */
   .footer{
-      max-height: 400px;
+      /* max-height: 400px; */
       background-image: url('../img/moroccan-flower-dark.png');
+  }
+  .footer a{
+    margin: 20px;
+    padding: 20px;
+    color: #fff;
   }
     
   
@@ -153,6 +159,13 @@ figure .trasera hr{
         }
         .contenedor_tarjeta:hover figure {
             transform: perspective(600px) rotateY(0deg);
+        }
+        .footer a{
+            display: block;
+            padding: 5px;
+        }
+        #About h2{
+            font-size: 35px;
         }
         
     }
