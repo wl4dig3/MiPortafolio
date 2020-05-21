@@ -39,11 +39,15 @@ h3{
 #navbarNav li a{
     color:rgba(255,255,255,0.7);
     font-weight: bolder;
-    text-align: right   ;
+    text-align: right;
 }
+.navbar{
+    background-color: #BBCDF5;
+}  
 #navbarNav li a:hover{
     font-size: 20px;
     color: rgba(255,255,255,0.5);
+    
 }
 #carouselExampleInterval .carousel-inner{
     margin:0 auto;
@@ -169,7 +173,7 @@ figure .trasera hr{
             transform: perspective(600px) rotateY(0deg);
         }
         .footer a{
-            display: block;
+            display: inline-block;
             padding: 5px;
         }
         #About h2{
