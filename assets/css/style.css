@@ -20,13 +20,20 @@ h1{
     padding-top: 150px;
     font-family: Lobster;
 }
+h2{
+    font-family: 'Lobster', serif;
+}
+h3{
+    font-family: Lobster, serif;
+    font-size: 44px;
+}
  hr{
      height: 3px;
      
  }  
 .container p{
-    font-size: 24px;
-    font-family: Lobster;
+    font-size: 22px;
+    font-family: 'Merriweather';
 }
 /* navBar */
 #navbarNav li a{
@@ -35,7 +42,8 @@ h1{
     text-align: right   ;
 }
 #navbarNav li a:hover{
-    font-size: 18px;
+    font-size: 20px;
+    color: rgba(255,255,255,0.5);
 }
 #carouselExampleInterval .carousel-inner{
     margin:0 auto;
@@ -165,7 +173,13 @@ figure .trasera hr{
             padding: 5px;
         }
         #About h2{
-            font-size: 35px;
+            font-size: 28px;
+        }
+        #About p{
+            font-size: 22px;
+        }
+        #carrusel h2{
+            font-size: 28px;
         }
         
     }
