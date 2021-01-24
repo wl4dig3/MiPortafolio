@@ -10,6 +10,7 @@ body{
     font-family: 'Lobster', cursive 'Verdana';
     overflow-x: hidden;
 }
+
 a{
     text-decoration: none;
 }
@@ -37,12 +38,12 @@ h3{
 }
 /* navBar */
 #navbarNav li a{
-    color:rgba(255,255,255,0.7);
+    color:whitesmoke;
     font-weight: bolder;
     text-align: right;
 }
 .navbar{
-    background-color: #BBCDF5;
+    background-color: #096085;
 }  
 #navbarNav li a:hover{
     font-size: 20px;
