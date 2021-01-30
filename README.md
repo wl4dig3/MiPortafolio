@@ -1,2 +1,2 @@
 # MiPortafolio
-sin uso de framework, splo html5, css y js
+sin uso de framework, solo html5, css y js
