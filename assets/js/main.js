@@ -3,5 +3,8 @@ const fondo = document.getElementById('fondo')
 
 window.onscroll = () => {
     const anchoFondo = (window.pageYOffset / altura) * 800;
-    fondo.style.width = anchoFondo + '%'
+    if (anchoFondo <= 100) {
+        fondo.style.width = anchoFondo + '%'
+
+    }
 }

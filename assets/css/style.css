@@ -25,12 +25,13 @@ hr {
     height: 3px;
 }
 
-/* navBar */
+/**** navBar ****/
 
 #navbarNav li a {
     color: whitesmoke;
     font-weight: bolder;
     text-align: right;
+    transition: .3s ease all;
 }
 
 .navbar {
@@ -40,12 +41,13 @@ hr {
 #navbarNav li a:hover {
     font-size: 20px;
     color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 2px;
 }
 
 #carouselExampleInterval .carousel-inner {
     margin: 0 auto;
 }
-
+/**** hero secrion *** */
 .fixed-bg {
     background-image: url("../img/bg-wla.jpg");
     width: 100%;
@@ -75,6 +77,34 @@ hr {
     height: 100vh;
     font-weight: 400;
     
+}
+#fondo .front {
+    font-size: 12px;
+}
+.subtitulo {
+    z-index: 2;
+    text-transform: capitalize;
+}
+.subtitulo span {
+    background-color: rgb(233, 224, 224);
+    padding:  0 15px;
+    z-index: 99;
+    position: relative;
+    border-radius: 15px;
+    font-size: 40px;
+}
+.subtitulo::after {
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 100%;
+    background: indigo;
+    position: relative;
+    top: -55px;
+    z-index: 1;
+}
+.about-text {
+    font-size: 20px;
 }
 
 /* Cards */
