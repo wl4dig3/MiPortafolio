@@ -118,6 +118,49 @@ hr {
     justify-content: center;
 }
 
+#trabajos {
+    background-color: lightgray;
+    height: auto;
+}
+.trabajo{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.trabajo .overlay {
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: lightsalmon;
+    overflow: hidden;
+    transition: .5s ease;
+}
+
+.trabajo:hover .overlay {
+    width: 100%;
+    opacity: .8;
+}
+.trabajo .overlay-text{
+    top:50%;
+    left: 50%;
+    position: absolute;
+    white-space: nowrap;
+    color: white;
+    font-size: 18px;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+
+}
+    
+/* .margen-inf{
+    margin-bottom: -120px;
+} */
+
 .contenedor_tarjeta {
     margin: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);

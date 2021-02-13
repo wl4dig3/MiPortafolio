@@ -103,80 +103,71 @@
     </div>
   </section>
   <!-- Carousel -->
-  <section class="container" id="carrusel">
-    <h2 class=" subtitulo text-center"><span> My lastest jobs </span></h2>
-    <div class="row">
-      <div id="carouselExampleIndicators" class="container carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-dark"></li>
-          <li data-target="#carouselExampleIndicators" class="bg-dark" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" class="bg-dark" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" class="bg-dark" data-slide-to="3"></li>
-        </ol>
-
+  <div class="container py-3" id="trabajos">
+    <div class="row justify-content-center margen-inf">
+      <div class="col-12">
         <div class="row">
+          <article class="col-6 col-lg-4">
+            <figure class="trabajo">
+              <img src="assets/img/slide5.png" class="img-fluid" alt="cupon">
+              <figcaption class="overlay">
+                <p class="overlay-text">Pequeña descripción</p>
+              </figcaption>
+            </figure>
+          </article>
 
-          <div class="carousel-inner p-0">
-            <div class="carousel-item active text-center">
-              <div class="row">
-                <div class="col-6"><img src="assets/img/slide1.png" class="d-block img-fluid" alt="pizza"></div>
-                <!-- <div class="col-3"><img src="assets/img/slide5.png" class="d-block img-fluid" alt="setas"></div> -->
-                <div class="col-6"><img src="assets/img/slide3.png" class="d-block img-fluid" alt="..."></div>
-                <!-- <div class="col-3"><img src="assets/img/slide4.png" class="d-block img-fluid" alt="pizza"></div> -->
-                <div>
-                  <p></p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item text-center">
-              <div class="row">
-                <div class="col-6"><img src="assets/img/slide5.png" class="d-block img-fluid" alt=""></div>
-                <div class="col-6"><img src="assets/img/slide4.png" class="d-block img-fluid" alt="pizza"></div>
+          <article class="col-6 col-lg-4">
+            <figure class="trabajo">
+              <img src="assets/img/slide2.png" class="img-fluid" alt="cupon">
+              <figcaption class="overlay">
+                <p class="overlay-text">Pequeña descripción</p>
+              </figcaption>
+            </figure>
+          </article>
+          <article class="col-6 col-lg-4">
+            <figure class="trabajo">
+              <img src="assets/img/slide6.png" class="img-fluid" alt="cupon">
+              <figcaption class="overlay">
+                <p class="overlay-text">Pequeña descripción</p>
+              </figcaption>
+            </figure>
+          </article>
+          <article class="col-6 col-lg-4">
+            <figure class="trabajo">
+              <img src="assets/img/slide_crud.jpg" class="img-fluid" alt="cupon">
+              <figcaption class="overlay">
+                <p class="overlay-text">Pequeña descripción</p>
+              </figcaption>
+            </figure>
+          </article>
 
+          <article class="col-6 col-lg-4">
+            <figure class="trabajo">
+              <img src="assets/img/slide1.png" class="img-fluid" alt="cupon">
+              <figcaption class="overlay">
+                <p class="overlay-text">Pequeña descripción</p>
+              </figcaption>
+            </figure>
+          </article>
+          <article class="col-6 col-lg-4">
+            <figure class="trabajo">
+              <img src="assets/img/slide_diario.jpg" class="img-fluid" alt="cupon">
+              <figcaption class="overlay">
+                <p class="overlay-text">Pequeña descripción</p>
+              </figcaption>
+            </figure>
+          </article>
 
-                <!-- <div class="col-3"><img src="..." class="d-block img-fluid" alt=""></div> -->
-              </div>
-            </div>
-
-            <div class="carousel-item text-center">
-              <div class="row">
-
-                <div class="col-6"><img src="assets/img/slide_crud.jpg" class="d-block img-fluid" alt="crud"></div>
-                <div class="col-6"><img src="assets/img/slide_diario.jpg" class="d-block img-fluid" alt="diario"></div>
-
-                <!-- <div class="col-3"><img src="..." class="d-block img-fluid" alt=""></div> -->
-              </div>
-            </div>
-
-            <div class="carousel-item text-center">
-              <div class="row">
-
-                <div class="col-6"><img src="assets/img/slide6.png" class="d-block img-fluid" alt="crud"></div>
-                <div class="col-6"><img src="assets/img/slide_app.jpg" class="d-block img-fluid" alt="diario"></div>
-
-                <!-- <div class="col-3"><img src="..." class="d-block img-fluid" alt=""></div> -->
-              </div>
-            </div>
-
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-
-
-
-
-            <p>
-              <hr class="border p-1">
-            </p>
-          </div>
+          <button class="d-block btn-trabajos">Todos los trabajos</button>
         </div>
       </div>
-  </section>
+
+
+    </div>
+  </div>
+
+
+
   <hr class="mt-5 bg-dark">
   <h3 class="text-center my-5">My Hobbies</h3>
   <article id="hobbies" class="contenedor">
@@ -251,15 +242,6 @@
       </div>
     </div>
   </footer>
-
-
-
-
-
-
-
-
-
 
 
   <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
